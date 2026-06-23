@@ -1,0 +1,905 @@
+[
+  {
+    "timestamp": "2026-06-21T19:12:20.790Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "Search engine giant",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:24:00.193Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "Search engine engine",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:25:52.036Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "Search engine engine",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:26:04.537Z",
+    "lead": {
+      "company": "Meta",
+      "email": "mantu91171@gmail.com",
+      "founder_name": "Mark Zuckerberg",
+      "website": "meta.com",
+      "description": "Social media platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Meta",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:26:17.045Z",
+    "lead": {
+      "company": "Stripe",
+      "email": "mantu9711@gmail.com",
+      "founder_name": "Patrick Collison",
+      "website": "stripe.com",
+      "description": "Online payment gateway",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Stripe",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:26:29.855Z",
+    "lead": {
+      "company": "Airbnb",
+      "email": "mantu11711@gmail.com",
+      "founder_name": "Brian Chesky",
+      "website": "airbnb.com",
+      "description": "Vacation rental platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Airbnb",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-21T19:45:48.193Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "Search engine engine",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "openai"
+  },
+  {
+    "timestamp": "2026-06-21T19:45:52.623Z",
+    "lead": {
+      "company": "Meta",
+      "email": "mantu91171@gmail.com",
+      "founder_name": "Mark Zuckerberg",
+      "website": "meta.com",
+      "description": "Social media platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Meta",
+    "status": "sent",
+    "provider": "openai"
+  },
+  {
+    "timestamp": "2026-06-21T19:45:57.000Z",
+    "lead": {
+      "company": "Stripe",
+      "email": "mantu9711@gmail.com",
+      "founder_name": "Patrick Collison",
+      "website": "stripe.com",
+      "description": "Online payment gateway",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Stripe",
+    "status": "sent",
+    "provider": "openai"
+  },
+  {
+    "timestamp": "2026-06-21T19:46:00.524Z",
+    "lead": {
+      "company": "Airbnb",
+      "email": "mantu11711@gmail.com",
+      "founder_name": "Brian Chesky",
+      "website": "airbnb.com",
+      "description": "Vacation rental platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Airbnb",
+    "status": "sent",
+    "provider": "openai"
+  },
+  {
+    "timestamp": "2026-06-21T19:47:58.081Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "Search engine engine",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:02.809Z",
+    "lead": {
+      "company": "Meta",
+      "email": "mantu91171@gmail.com",
+      "founder_name": "Mark Zuckerberg",
+      "website": "meta.com",
+      "description": "Social media platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Meta",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:06.267Z",
+    "lead": {
+      "company": "Stripe",
+      "email": "mantu9711@gmail.com",
+      "founder_name": "Patrick Collison",
+      "website": "stripe.com",
+      "description": "Online payment gateway",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Stripe",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:09.831Z",
+    "lead": {
+      "company": "Airbnb",
+      "email": "mantu11711@gmail.com",
+      "founder_name": "Brian Chesky",
+      "website": "airbnb.com",
+      "description": "Vacation rental platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Airbnb",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:13.337Z",
+    "lead": {
+      "company": "Microsoft",
+      "email": "mntu911711@gmail.com",
+      "founder_name": "Satya Nadella",
+      "website": "microsoft.com",
+      "description": "Operating system and software",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Microsoft",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:16.831Z",
+    "lead": {
+      "company": "Uber",
+      "email": "mantu1711@gmail.com",
+      "founder_name": "Dara Khosrowshahi",
+      "website": "uber.com",
+      "description": "Ride hailing application",
+      "job_type": "manager"
+    },
+    "subject": "Opportunity for Uber",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:21.271Z",
+    "lead": {
+      "company": "Slack",
+      "email": "mantu9f1711@gmail.com",
+      "founder_name": "Stewart Butterfield",
+      "website": "slack.com",
+      "description": "Business communications hub",
+      "job_type": "manager"
+    },
+    "subject": "Opportunity for Slack",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:25.624Z",
+    "lead": {
+      "company": "Zoom",
+      "email": "mantu91f1711@gmail.com",
+      "founder_name": "Eric Yuan",
+      "website": "zoom.us",
+      "description": "Video conferencing platform",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Zoom",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:29.946Z",
+    "lead": {
+      "company": "Dropbox",
+      "email": "manstu911711@gmail.com",
+      "founder_name": "Drew Houston",
+      "website": "dropbox.com",
+      "description": "Cloud file sharing storage",
+      "job_type": "marketer"
+    },
+    "subject": "Opportunity for Dropbox",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:33.400Z",
+    "lead": {
+      "company": "Notion",
+      "email": "mantdu911711@gmail.com",
+      "founder_name": "Ivan Zhao",
+      "website": "notion.so",
+      "description": "Unified notes database workspace",
+      "job_type": "manager"
+    },
+    "subject": "Opportunity for Notion",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:36.914Z",
+    "lead": {
+      "company": "Vercel",
+      "email": "mantua911711@gmail.com",
+      "founder_name": "Guillermo Rauch",
+      "website": "vercel.com",
+      "description": "Serverless hosting platform",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Vercel",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:40.445Z",
+    "lead": {
+      "company": "Canva",
+      "email": "mantuv911711@gmail.com",
+      "founder_name": "Melanie Perkins",
+      "website": "canva.com",
+      "description": "Online graphic design platform",
+      "job_type": "designer"
+    },
+    "subject": "Opportunity for Canva",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:43.934Z",
+    "lead": {
+      "company": "HubSpot",
+      "email": "mantuc911711@gmail.com",
+      "founder_name": "Brian Halligan",
+      "website": "hubspot.com",
+      "description": "Inbound marketing platform",
+      "job_type": "marketer"
+    },
+    "subject": "Opportunity for HubSpot",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:47.615Z",
+    "lead": {
+      "company": "Trello",
+      "email": "maantu911711@gmail.com",
+      "founder_name": "Michael Pryor",
+      "website": "trello.com",
+      "description": "Visual kanban board organizer",
+      "job_type": "manager"
+    },
+    "subject": "Opportunity for Trello",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T19:48:52.351Z",
+    "lead": {
+      "company": "GitHub",
+      "email": "mantsu911711@gmail.com",
+      "founder_name": "Thomas Dohmke",
+      "website": "github.com",
+      "description": "Git code hosting platform",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for GitHub",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T21:05:24.981Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "fullstack developer",
+      "job_type": "developer"
+    },
+    "subject": "A Vision for Next-Gen Web Development at Google (Node.js & Next.js)",
+    "status": "sent",
+    "provider": "gemini"
+  },
+  {
+    "timestamp": "2026-06-21T22:27:30.468Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "fullstack developer",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-22T10:10:06.594Z",
+    "lead": {
+      "company": "Openthrive",
+      "email": "careers@openthrive.com",
+      "founder_name": "Vertika Nigam",
+      "website": "https://www.openthrive.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Opportunity for Openthrive",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T11:55:30.392Z",
+    "lead": {
+      "company": "Openthrive",
+      "email": "careers@openthrive.com",
+      "founder_name": "Vertika Nigam",
+      "website": "https://www.openthrive.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Opportunity for Openthrive",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T11:58:52.646Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "description": "fullstack developer",
+      "job_type": "developer"
+    },
+    "subject": "Opportunity for Google",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:36:07.201Z",
+    "lead": {
+      "company": "Openthrive",
+      "email": "careers@openthrive.com",
+      "founder_name": "Vertika Nigam",
+      "website": "https://www.openthrive.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:36:15.150Z",
+    "lead": {
+      "company": "Spenza",
+      "email": "careers@spenza.com",
+      "founder_name": "Vinaychandra Bharadwaj",
+      "website": "https://www.spenza.com",
+      "job_type": "frontend"
+    },
+    "subject": "Application for Frontend role",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:42:48.388Z",
+    "lead": {
+      "company": "Google",
+      "email": "mantu911711@gmail.com",
+      "founder_name": "Larry Page",
+      "website": "google.com",
+      "linkedin": "",
+      "description": "fullstack developer",
+      "job_type": "fullstack",
+      "industry": "",
+      "notes": ""
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:44:48.609Z",
+    "lead": {
+      "company": "Marmeto",
+      "email": "careers@marmeto.com",
+      "founder_name": "Shashwat Swaroop",
+      "website": "https://www.marmeto.com",
+      "job_type": "frontend"
+    },
+    "subject": "Application for Frontend role",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:45:11.133Z",
+    "lead": {
+      "company": "Xplorazzi",
+      "email": "careers@xplorazzi.com",
+      "founder_name": "Satyendra Sahani",
+      "website": "https://www.xplorazzi.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:45:34.726Z",
+    "lead": {
+      "company": "JcurveIQ",
+      "email": "careers@jcurveiq.com",
+      "founder_name": "JcurveIQ Founder",
+      "website": "https://www.jcurveiq.com",
+      "job_type": "frontend"
+    },
+    "subject": "Application for Frontend role",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:45:58.356Z",
+    "lead": {
+      "company": "RxGPT",
+      "email": "careers@rxgpthealth.com",
+      "founder_name": "Sailesh Pattnaik",
+      "website": "https://rxgpthealth.com",
+      "job_type": "frontend"
+    },
+    "subject": "Application for Frontend role",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:46:20.810Z",
+    "lead": {
+      "company": "KogniCloud Tech",
+      "email": "info@kognicloudtech.com",
+      "founder_name": "Rakesh Kumar Mishra",
+      "website": "https://www.kognicloudtech.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:46:44.796Z",
+    "lead": {
+      "company": "CosmicFusion Labs",
+      "email": "careers@cosmicfusionlabs.com",
+      "founder_name": "Amit Kumar",
+      "website": "https://www.cosmicfusionlabs.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:47:08.652Z",
+    "lead": {
+      "company": "D Square Consulting",
+      "email": "careers@dsquareconsulting.com",
+      "founder_name": "R. Dharmendra Pal",
+      "website": "https://www.dsquareconsulting.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:47:32.674Z",
+    "lead": {
+      "company": "CuriousBox AI",
+      "email": "careers@prode.ai",
+      "founder_name": "Abhishek Bansal",
+      "website": "https://prode.ai",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:47:55.871Z",
+    "lead": {
+      "company": "Razorpay",
+      "email": "careers@razorpay.com",
+      "founder_name": "Harshil Mathur",
+      "website": "https://razorpay.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:48:20.249Z",
+    "lead": {
+      "company": "Groww",
+      "email": "future@groww.in",
+      "founder_name": "Lalit Keshre",
+      "website": "https://groww.in",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:48:43.152Z",
+    "lead": {
+      "company": "Zepto",
+      "email": "careers@zeptonow.com",
+      "founder_name": "Aadit Palicha",
+      "website": "https://www.zeptonow.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:49:09.237Z",
+    "lead": {
+      "company": "Postman",
+      "email": "careers@postman.com",
+      "founder_name": "Abhinav Asthana",
+      "website": "https://www.postman.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:49:33.347Z",
+    "lead": {
+      "company": "Hasura",
+      "email": "careers@hasura.io",
+      "founder_name": "Tanmai Gopal",
+      "website": "https://hasura.io",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:49:56.508Z",
+    "lead": {
+      "company": "BrowserStack",
+      "email": "careers@browserstack.com",
+      "founder_name": "Ritesh Arora",
+      "website": "https://www.browserstack.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:50:19.807Z",
+    "lead": {
+      "company": "Chargebee",
+      "email": "careers@chargebee.com",
+      "founder_name": "Krish Subramanian",
+      "website": "https://www.chargebee.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:50:43.026Z",
+    "lead": {
+      "company": "Loop Health",
+      "email": "careers@loophealth.com",
+      "founder_name": "Mayank Kale",
+      "website": "https://www.loophealth.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:51:06.054Z",
+    "lead": {
+      "company": "Juspay",
+      "email": "careers@juspay.in",
+      "founder_name": "Vimal Kumar",
+      "website": "https://juspay.in",
+      "job_type": "backend"
+    },
+    "subject": "Application for Backend role",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:51:28.908Z",
+    "lead": {
+      "company": "Landeed",
+      "email": "careers@landeed.com",
+      "founder_name": "Sanjay Mandava",
+      "website": "https://www.landeed.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:51:51.771Z",
+    "lead": {
+      "company": "Bolna AI",
+      "email": "careers@bolna.ai",
+      "founder_name": "Maitreya Wagh",
+      "website": "https://www.bolna.ai",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:52:14.544Z",
+    "lead": {
+      "company": "Sarvam AI",
+      "email": "careers@sarvam.ai",
+      "founder_name": "Vivek Raghavan",
+      "website": "https://www.sarvam.ai",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:52:37.764Z",
+    "lead": {
+      "company": "Yellow.ai",
+      "email": "careers@yellow.ai",
+      "founder_name": "Raghu Ravinutala",
+      "website": "https://yellow.ai",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:53:00.683Z",
+    "lead": {
+      "company": "CleverTap",
+      "email": "careers@clevertap.com",
+      "founder_name": "Anand Jain",
+      "website": "https://clevertap.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:53:23.674Z",
+    "lead": {
+      "company": "Fynd",
+      "email": "careers@fynd.com",
+      "founder_name": "Farooq Adam",
+      "website": "https://fynd.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:53:46.914Z",
+    "lead": {
+      "company": "Dukaan",
+      "email": "careers@mydukaan.io",
+      "founder_name": "Suumit Shah",
+      "website": "https://mydukaan.io",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:54:10.699Z",
+    "lead": {
+      "company": "Dyte",
+      "email": "careers@dyte.io",
+      "founder_name": "Abhishek Kankani",
+      "website": "https://dyte.io",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:54:33.494Z",
+    "lead": {
+      "company": "Vyapar",
+      "email": "careers@vyaparapp.in",
+      "founder_name": "Sumit Agarwal",
+      "website": "https://vyaparapp.in",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:54:57.383Z",
+    "lead": {
+      "company": "Khatabook",
+      "email": "careers@khatabook.com",
+      "founder_name": "Ravish Naresh",
+      "website": "https://khatabook.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:55:19.921Z",
+    "lead": {
+      "company": "smallcase",
+      "email": "careers@smallcase.com",
+      "founder_name": "Vasanth Kamath",
+      "website": "https://www.smallcase.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:55:43.490Z",
+    "lead": {
+      "company": "Airmeet",
+      "email": "careers@airmeet.com",
+      "founder_name": "Lalit Mangal",
+      "website": "https://www.airmeet.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:56:06.887Z",
+    "lead": {
+      "company": "Scaler",
+      "email": "careers@scaler.com",
+      "founder_name": "Abhimanyu Saxena",
+      "website": "https://www.scaler.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:56:30.462Z",
+    "lead": {
+      "company": "Haptik",
+      "email": "careers@haptik.ai",
+      "founder_name": "Aakrit Vaish",
+      "website": "https://www.haptik.ai",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:56:53.925Z",
+    "lead": {
+      "company": "PhonePe",
+      "email": "careers@phonepe.com",
+      "founder_name": "Sameer Nigam",
+      "website": "https://www.phonepe.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:57:17.624Z",
+    "lead": {
+      "company": "Perfios",
+      "email": "careers@perfios.com",
+      "founder_name": "V.R. Govindarajan",
+      "website": "https://www.perfios.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  },
+  {
+    "timestamp": "2026-06-23T12:57:41.225Z",
+    "lead": {
+      "company": "NIRAMAI",
+      "email": "careers@niramai.com",
+      "founder_name": "Geetha Manjunath",
+      "website": "https://www.niramai.com",
+      "job_type": "fullstack"
+    },
+    "subject": "Application for Fullstack Developer",
+    "status": "sent",
+    "provider": "manual"
+  }
+]

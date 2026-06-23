@@ -1,0 +1,21 @@
+{
+  "name": "@seeker/email-sender",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@seeker/shared-types": "workspace:*",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.10"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  }
+}

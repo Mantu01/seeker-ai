@@ -1,0 +1,33 @@
+{
+  "name": "seeker-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "seeker": "src/index.ts"
+  },
+  "scripts": {
+    "start": "tsx --no-cache src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@seeker/config": "workspace:*",
+    "@seeker/constants": "workspace:*",
+    "@seeker/email-generator": "workspace:*",
+    "@seeker/email-sender": "workspace:*",
+    "@seeker/lead-ingestion": "workspace:*",
+    "@seeker/logger": "workspace:*",
+    "@seeker/shared-types": "workspace:*",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "enquirer": "^2.4.1",
+    "figlet": "^1.11.0",
+    "nodemailer": "^6.9.4",
+    "ora": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^3.12.7"
+  }
+}

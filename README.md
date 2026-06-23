@@ -1,26 +1,72 @@
-# Turborepo starter
+# Seeker Monorepo
 
-This Turborepo starter is maintained by the Turborepo core team.
+Seeker is a modular outreach platform built for CLI-first automation and future Web/Mobile reuse.
 
-## Using this example
+## Overview
 
-Run the following command:
+This repository is organized as a Turborepo monorepo with shared packages for configuration, lead ingestion, email generation, email sending, and logging.
+
+## Apps and Packages
+
+- `apps/cli`: Seeker CLI application
+- `packages/config`: local configuration service
+- `packages/constants`: shared CLI and help constants
+- `packages/email-generator`: draft generation for manual and generative mail modes
+- `packages/email-sender`: Gmail sender based on Nodemailer
+- `packages/lead-ingestion`: CSV loading and validation
+- `packages/logger`: local log and run-state persistence
+- `packages/shared-types`: shared TypeScript models and interfaces
+- `packages/typescript-config`: shared TypeScript compiler settings
+
+## CLI Usage
+
+Install dependencies from the repository root:
 
 ```sh
-npx create-turbo@latest
+pnpm install
 ```
 
-## What's inside?
+Run the CLI from the `apps/cli` folder:
 
-This Turborepo includes the following packages/apps:
+```sh
+cd apps/cli
+pnpm start
+```
 
-### Apps and Packages
+Available commands:
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+```sh
+pnpm start -- help
+pnpm start -- config
+pnpm start -- start
+pnpm start -- status
+pnpm start -- validate ./leads.csv
+pnpm start -- preview
+pnpm start -- templates
+pnpm start -- logs
+pnpm start -- reset
+pnpm start -- version
+```
+
+## Development
+
+Build the CLI:
+
+```sh
+cd apps/cli
+pnpm run build
+```
+
+Build a specific package:
+
+```sh
+pnpm exec turbo build --filter=@seeker/config
+```
+
+## Notes
+
+- The CLI is designed for reusable business logic so shared packages can be reused in backend APIs or future Web/Mobile apps.
+- The `apps/cli` entry point uses interactive prompts, theme selection, and local persistence for a premium terminal experience.
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
