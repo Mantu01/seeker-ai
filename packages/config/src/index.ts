@@ -12,9 +12,15 @@ export class ConfigService {
   public static readonly configFileName = "config.json";
 
   public static async load(root: string): Promise<Config> {
-    const configPath = join(root, ConfigService.configFolderName, ConfigService.configFileName);
+    const folder = join(root, ConfigService.configFolderName);
+    const configPath = join(folder, ConfigService.configFileName);
     if (!existsSync(configPath)) {
-      return ConfigService.defaultConfig();
+      const def = ConfigService.defaultConfig();
+      if (!existsSync(folder)) {
+        await mkdir(folder, { recursive: true });
+      }
+      await writeFile(configPath, JSON.stringify(def, null, 2), "utf-8");
+      return def;
     }
     const contents = await readFile(configPath, "utf-8");
     return JSON.parse(contents) as Config;

@@ -1,8 +1,8 @@
 {
-  "processed": 68,
-  "sent": 67,
+  "processed": 103,
+  "sent": 102,
   "failed": 1,
   "skipped": 0,
-  "remaining": 66,
-  "lastProcessedRow": 33
+  "remaining": 31,
+  "lastProcessedRow": 68
 }

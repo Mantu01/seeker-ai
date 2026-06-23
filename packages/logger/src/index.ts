@@ -5,9 +5,15 @@ import type { LogEntry, RunState } from "@seeker/shared-types";
 
 export class LogStore {
   public static async loadState(root: string): Promise<RunState> {
-    const stateFile = join(root, ".seeker", "state.json");
+    const folder = join(root, ".seeker");
+    const stateFile = join(folder, "state.json");
     if (!existsSync(stateFile)) {
-      return { processed: 0, sent: 0, failed: 0, skipped: 0, remaining: 0, lastProcessedRow: -1 };
+      if (!existsSync(folder)) {
+        await mkdir(folder, { recursive: true });
+      }
+      const defState: RunState = { processed: 0, sent: 0, failed: 0, skipped: 0, remaining: 0, lastProcessedRow: -1 };
+      await writeFile(stateFile, JSON.stringify(defState, null, 2), "utf-8");
+      return defState;
     }
     const payload = await readFile(stateFile, "utf-8");
     return JSON.parse(payload) as RunState;
@@ -31,8 +37,13 @@ export class LogStore {
   }
 
   public static async loadLogs(root: string): Promise<LogEntry[]> {
-    const logsFile = join(root, ".seeker", "logs.json");
+    const folder = join(root, ".seeker");
+    const logsFile = join(folder, "logs.json");
     if (!existsSync(logsFile)) {
+      if (!existsSync(folder)) {
+        await mkdir(folder, { recursive: true });
+      }
+      await writeFile(logsFile, JSON.stringify([], null, 2), "utf-8");
       return [];
     }
     const payload = await readFile(logsFile, "utf-8");
